@@ -10,7 +10,7 @@ const Editor = ( {expand, input, change, fs, fullscreen} ) => {
                     <Minmax fullscreen={fullscreen} fs={fs}/>
                 </div>
             </header>
-            <textarea type="text" value={input} onChange={change} />
+            <textarea type="text" id="editor"value={input} onChange={change} />
         </div>
     )
 }
